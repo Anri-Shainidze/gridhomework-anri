@@ -11,14 +11,17 @@ body{
     grid-template-areas: 
     "div1 div1 div2 div3"
     "div4 div5 div5 div3";
-    gap:30px
+    gap:30px;
 
 }
+
 
 .child1{
     grid-area: div1;
     background-color: #733FC8;
     border-radius: 8px;
+    width:540px;
+    height: 282px;
     
 
 
@@ -27,24 +30,57 @@ body{
     grid-area:div2;
     background-color: #48556A;
     border-radius: 8px;
+    width:255px;
+    height: 282px;
 }
 .child3{
     grid-area:div3;
     background-color: #FFFFFF;
     border-radius: 8px;
+    width:255px;
+    height:572px;
 }
 .child4{
     grid-area: div4;
     background-color: #FFFFFF;
-    border-radius: 8px;;
+    border-radius: 8px;
+    width:255px;
+    height:266px;
 }
 .child5{
     grid-area: div5;
     background-color: #19202D;
     border-radius: 8px;
+    width:540px;
+    height:266px;
 }
 h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 19px;
+    color:white;
+}
+p{
+    color:#b4a4cd;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    margin-left: 27px;
+    margin-top: 25px
+}
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    color:#48556A;
 }
