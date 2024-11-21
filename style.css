@@ -1,1 +1,41 @@
-.cont
+body{
+    background-color: #ECF2F8;
+}
+.container{
+    width: 1110px;
+    height: 572px;
+    display: grid;
+    grid-template-areas: 
+    "div1 div1 div2 div3"
+    "div4 div5 div5 div3";
+    gap:30px
+
+}
+
+.child1{
+    grid-area: div1;
+    background-color: #733FC8;
+    border-radius: 8px;
+
+
+}
+.child2{
+    grid-area:div2;
+    background-color: #48556A;
+    border-radius: 8px;
+}
+.child3{
+    grid-area:div3;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.child4{
+    grid-area: div4;
+    background-color: #FFFFFF;
+    border-radius: 8px;;
+}
+.child5{
+    grid-area: div5;
+    background-color: #19202D;
+    border-radius: 8px;
+}
